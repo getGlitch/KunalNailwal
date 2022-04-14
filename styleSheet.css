@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 60%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  color: #aeff00;
+  background-image: linear-gradient(45deg, #0703fc, #fc03c2);
+}
+
+header {
+  position: relative;
+  height: 35vh;
+  border-bottom: 5px dashed #e4fce3;
+}
+
+main {
+  height: 65vh;
+  color: #aeff00;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  width: 52rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 65vh;
+}
+
+.right {
+  width: 52rem;
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4.5rem;
+  text-shadow: 3px 3px #660000;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.guess {
+  background-color: #aeff00;
+  /* background-image: linear-gradient(45deg, #0703fc, #fc03c2); */
+
+  color: #660000;
+  font-size: 6rem;
+  box-shadow: 3px 3px;
+  border: 2px solid #3a3636c3;
+  border-radius: 50%;
+  width: 20rem;
+  padding: 3rem 0rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.between {
+  font-size: 1.8rem;
+  text-shadow: 1px 1px #660000;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
+
+.retry {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.number {
+  background: #aeff00;
+  border: 2px solid #3a3636c3;
+  font-family: inherit;
+  color: #660000;
+  font-size: 5rem;
+  padding: 2rem;
+  width: 25rem;
+  text-align: center;
+  display: block;
+  margin-bottom: 3rem;
+  margin-top: 13rem;
+  box-shadow: 3px 3px;
+}
+
+.btn {
+  /* border: 2px solid #3a3636c3; */
+  background-color: #aeff00;
+  color: #660000;
+  font-size: 2rem;
+  font-family: inherit;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  box-shadow: 2px 2px;
+}
+
+.btn:hover {
+  background-color: #aeff00e0;
+}
+
+.message {
+  margin-bottom: 8rem;
+  height: 3rem;
+  font-size: 3rem;
+}
+
+.label-score {
+  margin-bottom: 2rem;
+}
